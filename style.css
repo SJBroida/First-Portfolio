@@ -1,0 +1,99 @@
+a:link    { color: #59A5D8;  }
+a:visited { color: #BB0A21;   }
+a:hover   { color: #C5E6A6; }
+a:active  { color: #5ADBFF;  }
+
+hr {
+  width: 15px;
+  height: 15px;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  transform: rotate(45deg);
+}
+
+/* 
+Insert Style for the Header section here.
+This will also include some formatting for the Footer.
+*/
+
+header > hr {
+  background: #D2A1B8;
+  color: #D2A1B8;
+}
+
+header, footer {
+  background-color: #2C2A4A;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+header > h1 {
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+header > h1, h2, h3 {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #B59194;
+}
+
+header > nav {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Insert Style for the Main section here */
+
+main {
+  background-color: #ECE2D0;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+main > article > h2, h3, p, ul, ol {
+  color: #A755C2;
+}
+
+/* Using percentages for the margin-left should allow for the text to be displayed appropriately regardless of device being used. */
+
+main > article > ul {
+  text-align: left;
+  margin-left: 20%;
+}
+
+main > article > ol {
+  text-align: left;
+  margin-left: 40%;
+}
+
+main > article > ul > li {
+  font-style: italic;
+}
+
+main > hr {
+  background: #A755C2;
+  color: #A755C2;
+}
+
+/* Insert Style for the Footer section here */
+
+footer {
+  height: 200px;
+}
+
+footer > h1, h2, h3 {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #B59194;
+}
+
+/* Make a class for the image so that not all images come out like this */
+
+.image-circle {
+  padding: 10px 0px;
+  width: 400px;
+  border-radius: 50%;
+}
