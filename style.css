@@ -1,6 +1,6 @@
-a:link    { color: #59A5D8;  }
+a:link    { color: rgb(55, 146, 207);  }
 a:visited { color: #BB0A21;   }
-a:hover   { color: #C5E6A6; }
+a:hover   { color: rgb(112, 175, 52); }
 a:active  { color: rgb(58, 138, 160);  }
 
 hr {
