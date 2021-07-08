@@ -1,7 +1,7 @@
 a:link    { color: #59A5D8;  }
 a:visited { color: #BB0A21;   }
 a:hover   { color: #C5E6A6; }
-a:active  { color: #5ADBFF;  }
+a:active  { color: rgb(58, 138, 160);  }
 
 hr {
   width: 15px;
@@ -61,12 +61,12 @@ main > article > h2, h3, p, ul, ol {
 
 main > article > ul {
   text-align: left;
-  margin-left: 50%;
+  margin: 0% 25%;
 }
 
 main > article > ol {
   text-align: left;
-  margin-left: 50%;
+  margin: 0% 40%;
 }
 
 main > article > ul > li {
