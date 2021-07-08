@@ -1,7 +1,7 @@
-a:link    { color: rgb(55, 146, 207);  }
+a:link    { color: rgb(29, 135, 206);  }
 a:visited { color: #BB0A21;   }
 a:hover   { color: rgb(112, 175, 52); }
-a:active  { color: rgb(58, 138, 160);  }
+a:active  { color: rgb(202, 131, 0);  }
 
 hr {
   width: 15px;
