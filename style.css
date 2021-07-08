@@ -3,6 +3,10 @@ a:visited { color: #BB0A21;   }
 a:hover   { color: rgb(112, 175, 52); }
 a:active  { color: rgb(202, 131, 0);  }
 
+a {
+  font-size: 18.66px;
+}
+
 hr {
   width: 15px;
   height: 15px;
