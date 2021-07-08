@@ -47,14 +47,14 @@ header > nav {
 /* Insert Style for the Main section here */
 
 main {
-  background-color: #ECE2D0;
+  background-color: rgb(238, 232, 222);
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 main > article > h2, h3, p, ul, ol {
-  color: #A755C2;
+  color: rgb(121, 62, 141);
 }
 
 /* Using percentages for the margin-left should allow for the text to be displayed appropriately regardless of device being used. */
